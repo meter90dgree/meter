@@ -1,0 +1,146 @@
+body.ltr .full_header .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body.rtl .full_header .navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+body.ltr .full_header .header_logo {
+    order: 1;
+    text-align: left;
+}
+
+body.rtl .full_header .header_logo {
+    order: 2;
+    text-align: right;
+}
+
+body.ltr .full_header .head_right {
+    order: 2;
+    text-align: left;
+}
+
+body.rtl .full_header .head_right {
+    order: 1;
+    text-align: right;
+}
+
+body.ltr .navbar-right {
+    float: left;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+body.rtl .navbar-right {
+    float: right;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+body.ltr .navbar-brand.logo img_logo {
+    margin-right: auto;
+}
+
+body.rtl .navbar-brand.logo img_logo {
+    margin-left: auto;
+}
+
+body.ltr .navbar-toggle {
+    float: left;
+}
+
+body.rtl .navbar-toggle {
+    float: right;
+}
+
+/* For LTR (Left-to-Right) */
+body.ltr .banner .bnr_inr {
+    text-align: left;
+}
+
+body.ltr .about .headline,
+body.ltr .about .abt_rgt {
+    text-align: left;
+}
+
+body.ltr .vision .headline,
+body.ltr .vision .abt_rgt {
+    text-align: left;
+}
+
+body.ltr .skill .headline {
+    text-align: center;
+}
+
+/* For RTL (Right-to-Left) */
+body.rtl .banner .bnr_inr {
+    text-align: right;
+}
+
+body.rtl .about .headline,
+body.rtl .about .abt_rgt {
+    text-align: right;
+}
+
+body.rtl .vision .headline,
+body.rtl .vision .abt_rgt {
+    text-align: right;
+}
+
+body.rtl .skill .headline {
+    text-align: center;
+}
+
+/* For LTR (Left-to-Right) */
+body.ltr .service .headline {
+    text-align: left;
+}
+
+body.ltr .service .ser_one {
+    text-align: left;
+}
+
+/* For RTL (Right-to-Left) */
+body.rtl .service .headline {
+    text-align: right;
+}
+
+body.rtl .service .ser_one {
+    text-align: right;
+}
+
+/* For LTR (Left-to-Right) */
+body.ltr .certificate .headline_center {
+    text-align: left;
+}
+
+body.ltr .certificate .port_one .port_overlay {
+    text-align: left;
+}
+
+/* For RTL (Right-to-Left) */
+body.rtl .certificate .headline_center {
+    text-align: right;
+}
+
+body.rtl .certificate .port_one .port_overlay {
+    text-align: right;
+}
+
+.row:dir(rtl) {
+    /* Reverse the float direction for RTL */
+    .col-md-3,
+    .col-md-6 {
+      float: right;
+    }
+  }
+
+  body.rtl .navbar-nav.menu {
+    /*display: flex;*/
+    justify-content: flex-end;
+}
